@@ -1,0 +1,385 @@
+*{
+    margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   box-sizing: border-box;
+   padding: 0;
+}
+#site-logo{
+   width: 200px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#site-logo a img{
+   width: 150px;
+   height: 70px;
+}
+#icon-searchbar{
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+}
+#text{
+   outline: none;
+   padding: 10px;
+   width: 35em;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#searchicon-header{
+   padding: 8px;
+   border: 1px solid gray;
+   background-color: blue;
+   padding-right: 25px;
+   padding-left: 25px;
+   outline: none;
+   cursor: pointer;
+}
+.searchicon-header i img{
+   width: 30px;
+   background-color: mediumblue;
+   cursor: pointer;
+}
+body img{
+   max-width: 100%;
+   height: auto;
+}
+#sign-in{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+#login a{
+   color: white;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   font-size: larger;
+   font-family: Arial ;
+   font-weight: bolder;
+}
+#login{
+   transition: .3s;
+
+}
+#login:hover{
+   transform: scale(1.2);
+}
+#registration a{
+   background-color: gold;
+   width: 140px;
+   height: 7vh;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color: black;
+   font-size:  larger ;
+   font-weight: bolder;
+   font-family: Arial ;
+
+}
+
+#main-nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: mediumblue;
+   height: 70px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+}
+#dropdown{
+   width: 100%;
+   height: 10%;
+}
+.dropdowns {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 70px;
+   width: 100%;
+}
+#number a{
+   
+   color: white;
+}
+#section-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+
+
+}
+
+#car-options{
+    margin-top:  18vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#view-board{
+   background-color: gainsboro;
+}
+#view-board h3{
+   margin-left: 4vh;
+}
+#headers{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+}
+#board{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   min-height: fit-content;
+   min-width: fit-content;
+}
+#bidding a{
+   color: green;
+}
+#car-image{
+   width: 25vh;
+   height: 20vh;
+   cursor: pointer;
+}
+#lot{
+   width: 25vh;
+   height: 20vh;
+   padding-top: 3vh;
+}
+#lot a{
+   color: blue;
+ 
+}
+#main-year{
+   width: 25vh;
+   height: 20vh;
+   font-weight: 700;
+   padding-top: 3vh;
+}
+#manufacturer{
+   width: 25vh;
+   height: 20vh;
+   font-weight: 700;
+   padding-top: 3vh;
+}
+
+#brand{
+   width: 25vh;
+   height: 20vh;
+   font-weight: 700;
+   padding-top: 3vh;
+}
+#lane{
+   width: 25vh;
+   height: 20vh;
+   padding-top: 3vh;
+}
+#bid{
+   width: 25vh;
+   height: 20vh;
+   text-align: center;
+   padding-top: 3vh;
+   background-color: gainsboro;
+}
+#bid-now{
+   background-color: blue;
+   color: white;
+   border-radius: 3vh;
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+#currency{
+   font-weight: 700;
+}
+#pagination{
+   margin-top: 2vh;
+   margin-bottom: 2vh;
+
+}
+texts{
+ 
+ 
+   padding-left: 10%;
+   padding-right: 10%;
+}
+#story h3{
+   text-align: center;
+   margin-bottom: 3vh;
+}
+#story{
+   /* background-color: gainsboro; */
+   margin-bottom:0 ;
+   width: 100%;
+
+}
+#membership{
+   background-image: url(../image/old.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 250px;
+   margin-top: 0;
+}
+#membership h2{
+   color: white;
+   text-align: center;
+   padding-top: 50px;
+   
+}
+
+#registrations a{
+   background-color: gold;
+   color: black;
+   width: 150px;
+   height: 7vh;
+   border-radius: 20px;
+   text-decoration: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-size:  larger ;
+   font-weight: bolder;
+   font-family: Arial ;
+   margin-top: 60px;
+   margin-left: 45%;
+   transition: .2s;
+
+
+
+}
+#nav{
+   background-color: whitesmoke;
+}
+#flagandcountry{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+#nigerian-office{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+#uk-office{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+#outreach a{
+    color: black;
+}
+
+#footer{
+   background-color: black;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding: 40px;
+   width: 100%;
+   
+}
+#vehicle-finder h6{
+   color: gold;
+}
+#vehicle-finder a{
+   color: white;
+   font-size: smaller;
+}
+#servicing h6{
+   color: gold;
+}
+#servicing a{
+   color: white;
+   font-size: smaller;
+}
+#auctioning h6{
+   color: gold;
+}
+#auctioning a{
+   color: white;
+   font-size: smaller;
+}
+#supporting h6{
+   color: gold;
+}
+#supporting a{
+   color: white;
+   font-size: smaller;
+}
+#company-info h6{
+   color: gold;
+}
+#company-info a{
+   color: white;
+   font-size: smaller;
+   font-family: Arial;
+}
+#copyright{
+   background-color:black;
+   color: gainsboro;
+   font-size: small;
+   text-align: center;
+   padding-bottom: 20px;
+}
+#copyright a{
+   color: gainsboro;
+   font-size: small;
+}
+#number a{
+   font-weight: bolder;
+   font-size: small;
+}
+
+
+/* Tablet Landscape */
+@media screen and (max-width: 1060px) {
+   #primary { width:67%; }
+   #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+   #primary { width:100%; }
+   #secondary { width:100%; margin:0; border:none;}
+   }
+   img { max-width: 100%; }
+
+   html { font-size:100%; } 
+   @media (min-width: 640px) { body {font-size:1rem;} } 
+   @media (min-width:960px) { body {font-size:1.2rem;} } 
+   @media (min-width:1100px) { body {font-size:1.5rem;} } 

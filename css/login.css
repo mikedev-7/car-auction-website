@@ -1,0 +1,125 @@
+*{
+    margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   box-sizing: border-box;
+   padding: 0;
+}
+
+#nav-bar{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5vh;
+}
+#Privacy{
+    color: white;
+    padding-right: 5vh ;
+}
+#site-logo{
+    padding-left: 5vh;
+}
+#main-nav{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+form{
+    background-color: white;
+    width: auto;
+    height: 60vh;
+    text-align: center;
+    padding: auto;
+}
+input[type=submit]{
+    background-color:blue;
+
+    border: solid 1px white;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 50px; 
+    text-align: center;
+    font-weight: 900;
+
+  }
+  input[type=email] {
+    border: none;
+    border-bottom: 1px gray;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 80%;
+    background-color: white;
+    color: gray;
+
+  }
+  input[type=email] {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 40%;
+  }
+  input[type=password] {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 40%;
+    color: gray;
+
+  }
+#heading{
+    font-size: xx-large;
+}
+#copyright{
+    font-size: smaller;
+    text-align: center;
+
+}
+#footer a{
+    color: mediumblue;
+    
+}
+#footer{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center
+}
+#footer-links{
+    margin-left: 10px;
+}
+#password{
+    margin-left: 60vw;
+    margin-right: 26vw;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    
+}
+#find-more{
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#password a{
+    color: mediumblue;
+}
+#sign-up a{
+    color: mediumblue;
+}
+#sign-up{
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

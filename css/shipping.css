@@ -1,0 +1,349 @@
+*{
+    margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   box-sizing: border-box;
+   padding: 0;
+}
+#site-logo{
+   width: 200px;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#site-logo a img{
+   width: 150px;
+   height: 70px;
+}
+#icon-searchbar{
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+}
+#text{
+   outline: none;
+   padding: 10px;
+   width: 35em;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#searchicon-header{
+   padding: 8px;
+   border: 1px solid gray;
+   background-color: blue;
+   padding-right: 25px;
+   padding-left: 25px;
+   outline: none;
+   cursor: pointer;
+}
+.searchicon-header i img{
+   width: 30px;
+   background-color: mediumblue;
+   cursor: pointer;
+}
+body img{
+   max-width: 100%;
+   height: auto;
+}
+#sign-in{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-evenly;
+   
+}
+#login a{
+   color: white;
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   font-size: larger;
+   font-family: Arial ;
+   font-weight: bolder;
+}
+#login{
+   transition: .3s;
+
+}
+#login:hover{
+   transform: scale(1.2);
+}
+#registration a{
+   background-color: gold;
+   width: 140px;
+   height: 7vh;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-decoration: none;
+   color: black;
+   font-size:  larger ;
+   font-weight: bolder;
+   font-family: Arial ;
+
+}
+
+#main-nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   background-color: mediumblue;
+   height: 70px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+}
+#dropdown{
+   width: 100%;
+   height: 10%;
+}
+.dropdowns {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 70px;
+   width: 100%;
+}
+#number a{
+   
+   color: white;
+}
+#section-1{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+#section-2{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   margin-right: 40px;
+
+
+}
+#ship-row1{
+background-color: transparent;
+width: 30%;
+}
+#shipping-board{
+    background-image: url(../image/blue-blur-color-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 15vh;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form{
+   /* background-color: ; */
+   width: 60%;
+   height: 100%;
+   text-align: center;
+   padding: auto;
+   padding-top: 10vh;
+   padding-bottom: 10vh;
+}
+input[type=submit]{
+   background-color:blue;
+
+   border: solid 1px white;
+   color: white;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   width: 60%;
+   border-radius: 50px; 
+   text-align: center;
+   font-weight: 900;
+
+ }
+ input[type=submit1]{
+   background-color:gold;
+
+   border: solid 1px black;
+   color: black;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+   width: 60%;
+   border-radius: 50px; 
+   text-align: center;
+   font-weight: 900;
+
+ }
+
+ input[type=email] {
+   border: none;
+   border-bottom: 1px white;
+   padding: 12px 12px;
+   margin: 10px 0;
+   width: 80%;
+   background-color: transparent;
+   color: white !important;
+   font-weight: bolder;
+
+ }
+ input[type=email] {
+   border: 1px solid white;
+   border-bottom: 1px solid white;
+   padding: 12px 12px;
+   margin: 10px 0;
+   width: 60%;
+   color: white !important;
+ }
+ input[type=text] {
+   border: 1px solid white;
+   border-bottom: 1px solid white;
+   background-color: transparent;
+   padding: 12px 12px;
+   margin: 10px 0;
+   width: 60%;
+   color: white !important;
+   font-weight: bolder;
+ }
+ ::placeholder {
+   color: white;
+ }
+ 
+ #membership{
+
+ background-color: whitesmoke;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+ height: 250px;
+ margin-top: 0;
+ 
+}
+#membership h2{
+ color: black;
+ text-align: center;
+ padding-top: 50px;
+ 
+}
+#registrations{
+   justify-content: center;
+}
+#registrations a{
+ background-color: gold;
+ color: black;
+ width: 50vh;
+ height: 7vh;
+ border-radius: 20px;
+ text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ font-size:  larger ;
+ font-weight: bolder;
+ font-family: Arial ;
+ margin-top: 60px;
+ margin-left: 40%;
+ transition: .2s;
+width: max-content;
+
+
+}
+
+
+#flagandcountry{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+#nigerian-office{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 20px;
+}
+#uk-office{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+#outreach a{
+  color: black;
+}
+
+#footer{
+ background-color: black;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ padding: 40px;
+ width: 100%;
+ 
+}
+#vehicle-finder h6{
+ color: gold;
+}
+#vehicle-finder a{
+ color: white;
+ font-size: smaller;
+}
+#servicing h6{
+ color: gold;
+}
+#servicing a{
+ color: white;
+ font-size: smaller;
+}
+#auctioning h6{
+ color: gold;
+}
+#auctioning a{
+ color: white;
+ font-size: smaller;
+}
+#supporting h6{
+ color: gold;
+}
+#supporting a{
+ color: white;
+ font-size: smaller;
+}
+#company-info h6{
+ color: gold;
+}
+#company-info a{
+ color: white;
+ font-size: smaller;
+ font-family: Arial;
+}
+#copyright{
+ background-color:black;
+ color: gainsboro;
+ font-size: small;
+ text-align: center;
+ padding-bottom: 20px;
+}
+#copyright a{
+ color: gainsboro;
+ font-size: small;
+}
+
+#number a{
+   font-weight: bolder;
+   font-size: small;
+}

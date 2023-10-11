@@ -1,0 +1,154 @@
+*{
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: border-box;
+    padding: 0;
+ }
+ #nav-bar{
+     background-color: blue;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+ #privacy{
+     color: white;
+     padding-right: 5vh ;
+ }
+ #site-logo{
+     padding-left: 5vh;
+ }
+ #main-part{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 120vh;
+ }
+ #form-heading{
+    font-size: xx-large;
+ }
+ #agreement-terms{
+    color: green;
+    background-color: azure;
+    width: 80%;
+    text-align: center;
+    font-size: small;
+    height: 5vh;
+    margin-left: 10vh;
+
+ }
+ #terms a{
+    color: blue
+ }
+ form{
+    background-color: white;
+ }
+ form{
+    background-color: white;
+    width: 600px;
+    height: 90vh;
+    padding: auto;
+    margin-top: 10vh;
+    text-align: center;
+    border-radius: 3vh;
+}
+input[type=submit]{
+    background-color:gold;
+
+    border: solid 1px white;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%;
+    border-radius: 50px; 
+    text-align: center;
+    font-weight: 900;
+
+  }
+
+ #login a{
+    color: black;
+    padding-top: 10vh;
+ }
+ input[type=email] {
+    border: none;
+    border-bottom: 1px gray;
+    padding: 12px 12px;
+    margin: 10px 0;
+    background-color: white;
+    color: gray;
+    margin-bottom: 5vh;
+
+  }
+  input[type=email] {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 40%;
+    margin-bottom: 5vh;
+  }
+  input[type=text] {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 83%;
+    color: gray;
+    margin-bottom: 5vh;
+
+  }
+  input[type=emails] {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray;
+    background-color: white;
+    padding: 12px 12px;
+    margin: 10px 0;
+    width: 83%;
+    color: gray;
+    margin-bottom: 5vh;
+  }
+  #first-part{
+    margin-top: 10vh;
+    font-size: large;
+  }
+ #copyright{
+    font-size: smaller;
+    text-align: center;
+
+ }
+#footer a{
+  color: mediumblue;
+  
+}
+#footer{
+  display: flex;
+  flex-direction: row ;
+  justify-content: center;
+  align-items: center;
+}
+#footer-links{
+  padding-left: 10px;
+}
+#password{
+  margin-left: 63vh;
+  
+}
+#find-more{
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
